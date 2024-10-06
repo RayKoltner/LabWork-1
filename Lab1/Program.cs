@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             DictionaryXMLReader reader = new DictionaryXMLReader();
-            Console.WriteLine("Укажите путь к считываемому XML:");
+            Console.WriteLine("Укажите путь к считываемому справочнику N018 в формате XML:");
             String path = Console.ReadLine();
             bool result = false;
 
